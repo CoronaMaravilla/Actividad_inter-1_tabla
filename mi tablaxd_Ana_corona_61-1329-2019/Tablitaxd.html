@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/diseño.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <!-- cabecera -->
+  <table class="table table-dark table-striped">
+    <tbody>
+        <thead>
+            <tr class="table-dark" align="center" >
+                <th align="center">Foto</th>
+                <th align="center">Nombre</th>
+                <th align="center">Pais de origen</th>
+                <th align="center">Ingredientes</th>
+                <th align="center">Receta</th>
+                <th align="center">Donde comprar</th>
+                <th align="center">Opcione 1 <br> Favoritos</th>
+                <th align="center">Opcione 2 <br> Descargar</th>
+            </tr>  
+        </thead>
+        
+        <!-- cuerpito -->
+        <tbody>
+            <tr class="table-dark">
+                <td align="center">
+                    <figure class="figure">
+                    <img src="svg/esverde.jpg" class="figure-img img-fluid rounded" alt="Image" width="200" height="350">
+                </figure>
+                </td>
+                <td align="center">Espagueti Verde</td>
+                <td align="center">México</td>
+    
+    
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="is()">
+                        <i class="bi bi-book" style="font-size: 5rem; color: aliceblue;">
+                            <span class="material-icons">
+                                menu_book
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="rs()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue">
+                            <span class="material-icons">
+                                format_list_numbered
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                
+                <td align="center">
+                    <div class="col-12 m" class="alert">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.2865782179692!2d-89.2514103856888!3d13.7010853021593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632f5e1178ecfd%3A0x6a9441816e6dfef1!2sCacio%20e%20Pepe%20Ristorante!5e0!3m2!1ses!2ssv!4v1665530627647!5m2!1ses!2ssv"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </td>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="fav()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                            <span class="material-icons"> 
+                                favorite 
+                            </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="descar()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                                <span class="material-icons">
+                                    download
+                                    </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+            
+
+            <tr class="table-dark">
+                <td align="center">
+                    <figure class="figure">
+                    <img src="svg/galletitas.jpg" class="figure-img img-fluid rounded" alt="Image" width="200" height="350">
+                </figure>
+                </td>
+                <td align="center">Galletas con chispas de chocolate</td>
+                <td align="center">EE.UU</td>
+    
+    
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="ig()">
+                        <i class="bi bi-book" style="font-size: 5rem; color: aliceblue;">
+                            <span class="material-icons">
+                                menu_book
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="rg()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue">
+                            <span class="material-icons">
+                                format_list_numbered
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                
+                <td align="center">
+                    <div class="col-12 m" class="alert">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62019.18015049866!2d-89.27825106875002!3d13.706408699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633060c2409531%3A0xd77e3b7588986465!2sLa%20Tecle%C3%B1a%20%E2%80%A2%20Metrocentro%20San%20Salvador!5e0!3m2!1ses!2ssv!4v1665533375585!5m2!1ses!2ssv" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </td>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="fav()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                            <span class="material-icons">
+                                favorite
+                             </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="descar()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                                <span class="material-icons">
+                                    download
+                                    </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                
+            </tr>
+
+            <tr class="table-dark">
+                <td align="center">
+                    <figure class="figure">
+                    <img src="svg/lasaña.jpg" class="figure-img img-fluid rounded" alt="Image" width="200" height="350">
+                </figure>
+                </td>
+                <td align="center">Lasaña de pollo</td>
+                <td align="center">Itaia</td>
+    
+    
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="il()">
+                        <i class="bi bi-book" style="font-size: 5rem; color: aliceblue;">
+                            <span class="material-icons">
+                                menu_book
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="rl()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue">
+                            <span class="material-icons">
+                                format_list_numbered
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                
+                <td align="center">
+                    <div class="col-12 m" class="alert">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124023.78132827092!2d-89.28350601717929!3d13.733993329921544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633bbca789ffdd%3A0xfe529e6df3c03d68!2sPizza%20Hut%20%C2%B7%20Plaza%20Mundo%20Apopa!5e0!3m2!1ses!2ssv!4v1665536310602!5m2!1ses!2ssv"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </td>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="fav()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                            <span class="material-icons"> 
+                                favorite 
+                            </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="descar()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                                <span class="material-icons">
+                                    download
+                                    </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                
+            </tr>
+
+
+            <tr class="table-dark">
+                <td align="center">
+                    <figure class="figure">
+                    <img src="svg/manzanitas.jpg" class="figure-img img-fluid rounded" alt="Image" width="200" height="350">
+                </figure>
+                </td>
+                <td align="center">manzanas caramelizadas</td>
+                <td align="center">norte américa</td>
+    
+    
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="im()">
+                        <i class="bi bi-book" style="font-size: 5rem; color: aliceblue;">
+                            <span class="material-icons">
+                                menu_book
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="rm()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue">
+                            <span class="material-icons">
+                                format_list_numbered
+                                </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                
+                <td align="center">
+                    <div class="col-12 m" class="alert">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31009.36477843072!2d-89.281500784375!3d13.708115400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632fe1afb044c7%3A0x1e7f0d7a375e7691!2sShaw&#39;s%20%E2%80%A2%20Masferrer!5e0!3m2!1ses!2ssv!4v1665538933396!5m2!1ses!2ssv" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="fav()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                            <span class="material-icons"> 
+                                favorite 
+                            </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+                <td align="center"> 
+                    <div class="col-12" class="alert">
+                    <button class="btn" onclick="descar()">
+                        <i class="bi bi-book" style="font-size:5rem; color: aliceblue;">
+                                <span class="material-icons">
+                                    download
+                                    </span>
+                        </i>
+                    </button>
+                </div>
+                </td>
+
+
+
+
+
+
+        </tbody>
+
+
+
+
+
+
+
+
+
+    </tbody>
+  </table>
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/animacion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
